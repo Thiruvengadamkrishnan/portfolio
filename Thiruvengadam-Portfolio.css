@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    
+}
+body{
+    background-color:lightslategray;
+}
+.header{
+    background-color:lightcoral;
+    color: yellow  ;
+    padding: 15px;
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 40%;
+    color: black;
+    cursor: pointer;
+}
+li:hover{
+    color: antiquewhite;
+}
+.photo{
+    position: relative;
+    bottom: 120px;
+    left: 800px;
+}
+.one{
+    position: relative;
+    font-size: 400%;
+    top: 90px;
+    left: 90px;
+}
+.two{
+     position: relative;
+     color: aqua;
+     font-size: 200%;
+     top: 90px;
+     left: 95px;
+     animation-name: example;
+     animation-duration: 4s;
+    
+}
+
+.three{
+   position: relative;
+   font-size: 150%;
+   top: 90px;
+   left: 95px;
+}
+.four{
+    position: relative;
+    font-size: 100%;
+    top: 95px;
+    left: 95px;
+}
+.a{
+    color:yellow;
+}
+.Email{
+    position: relative;
+    font-size: 100%;
+    top: -230px;
+    left: 95px;
+}
+.Phone{
+    position: relative;
+    font-size: 100%;
+    top: -230px;
+    left: 95px;
+}
+.Location{
+    position: relative;
+    font-size: 100%;
+    top: -230px;
+    left: 95px;
+}
+.Me{
+    position: relative;
+    font-size: 100%;
+    top: -390px;
+    left: 95px;
+}
+.insta{
+    filter: drop-shadow(2px 1px 1px red);
+    position:relative;
+    bottom: 600px;
+    left:700px;
+}
+.twitter{
+    filter: drop-shadow(2px 1px 1px lightblue);
+    position: relative;
+    bottom: 500px;
+    left: 620px
+}
+.facebook{
+    filter: drop-shadow(2px 1px 1px darkgrey);
+    position: relative;
+    bottom: 400px;
+    left: 660px;
+
+}
+.linkedln{
+    filter: drop-shadow(2px 1px 1px darkgrey);
+    position: relative;
+    bottom: 300px;
+    left: 580px;
+}
+.About{
+    cursor: all-scroll;
+    position: relative;
+    left: 100px;
+    bottom:210px;
+}
+.About{
+    border-radius: 50cm;
+    border-style: solid;
+    border-width: 4px;
+    border-color: cyan;
+    color: black;
+    display: inline;
+    background-color: cyan;
+}
+.About:hover{
+    color: darkviolet;
+    scrollbar-width: 50%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.photos{
+    position: relative;
+    bottom: 200px;
+}
+.Aboutme{
+    position: relative;
+    left: 260px;
+    bottom: 620px;
+}
+.para{
+    word-wrap: break-word;
+    width: 600px;
+    position: relative;
+    left: 600px;
+    bottom: 530px;
+    
+}
